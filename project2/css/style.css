@@ -1,0 +1,812 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.btn-order {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #333;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 1250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+    background-color: #fff;
+}
+
+.header .logo {
+    height: 74px;
+    width: 70px;
+    margin-left: 32px;
+}
+
+.header .burger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header .navigation {
+    margin-left: 963px;
+    gap: 8px;
+}
+
+.header .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header .navigation ul li {
+    margin-bottom: 10px;
+}
+
+.header .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.header .navigation a:hover {
+    text-decoration: underline;
+}
+
+.header .contact {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 16px;
+    }
+    .header .burger {
+        display: block;
+    }
+    .header .navigation {
+        display: none;
+    }
+    .header .navigation.active {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 16px 0;
+    }
+}
+
+.main-content {
+    padding: 0 40px;
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 0 20px;
+    }
+}
+
+.intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content .intro-text h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    .intro-content .intro-text h1 {
+        font-size: 36px;
+    }
+}
+
+.intro-content .intro-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+    .intro-content .intro-text p {
+        font-size: 16px;
+    }
+}
+
+.intro-content .btn-order {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .intro-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-content .btn-order {
+        margin-top: 20px;
+    }
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery .image-small img {
+    width: 329px;
+    height: 493px;
+    object-fit: cover;
+}
+
+.gallery .image-large img {
+    width: 678px;
+    height: 809px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.experience .experience-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .experience .experience-text h2 {
+        font-size: 32px;
+    }
+}
+
+.experience .experience-details {
+    text-align: left;
+    max-width: 50%;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.experience .experience-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.experience .experience-details .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience .experience-details .stats .stats-item {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.experience .experience-details .stats .stats-item span {
+    font-size: 14px;
+    color: #666;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .experience .experience-details .stats .stats-item {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience .experience-details {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+}
+
+.workflow {
+    margin-top: 60px;
+}
+
+.workflow .workflow-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.workflow .workflow-header .workflow-title {
+    flex: 1;
+}
+
+.workflow .workflow-header .workflow-title h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .workflow .workflow-header .workflow-title h2 {
+        font-size: 32px;
+    }
+}
+
+.workflow .workflow-header .workflow-subtitle-container {
+    flex: 1;
+    text-align: right;
+}
+
+.workflow .workflow-header .workflow-subtitle {
+    font-size: 18px;
+    color: #666;
+    max-width: 50%;
+    margin-left: auto;
+}
+
+.workflow .workflow-steps {
+    max-width: 50%;
+    margin-left: auto;
+}
+
+.workflow .workflow-steps .workflow-step {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.workflow .workflow-steps .workflow-step h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .workflow .workflow-steps .workflow-step h3 {
+        font-size: 24px;
+    }
+}
+
+.workflow .workflow-steps .workflow-step p {
+    font-size: 18px;
+}
+
+@media (max-width: 480px) {
+    .workflow .workflow-steps .workflow-step p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .workflow .workflow-steps {
+        max-width: 100%;
+    }
+    .workflow .workflow-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .workflow .workflow-header .workflow-subtitle-container {
+        text-align: left;
+    }
+    .workflow .workflow-header .workflow-subtitle {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+.projects {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+@media (max-width: 480px) {
+    .projects h2 {
+        font-size: 32px;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-item img {
+    width: 445px;
+    height: 580px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .project-item img {
+        height: auto;
+    }
+}
+
+.project-item img:hover {
+    transform: scale(1.05);
+}
+
+.project-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.reviews {
+    margin-top: 60px;
+}
+
+.reviews h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .reviews h2 {
+        font-size: 32px;
+    }
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.review-card {
+    width: 445px;
+    height: 327px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.review-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviews-container p {
+    font-size: 14px;
+    color: #666;
+}
+
+.room-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+.room-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.room-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.form-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .form-container h2 {
+        font-size: 24px;
+    }
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+form input:focus {
+    border-bottom: 1px solid #333;
+}
+
+form button {
+    width: 100px;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .room-project {
+        flex-direction: column;
+    }
+    .form-container {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    height: 80px;
+}
+
+.footer .copyright {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .footer-links {
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer-links p {
+    margin: 5px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    color: #555;
+}
+
+.footer .footer-links:last-child {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: right;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .footer .copyright {
+        position: static;
+    }
+    .footer .footer-links:last-child {
+        position: static;
+    }
+}
+
+/* Стили для страницы materials.html */
+.materials-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.materials-text {
+    flex: 1;
+    max-width: 60%;
+}
+/ФОТКА/
+.materials-image {
+    max-width: 800px;
+    margin-left: auto;
+}
+
+.materials-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .materials-content {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .materials-text {
+        max-width: 100%;
+    }
+    .materials-image {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .materials-img {
+        height: auto;
+    }
+}
+
+/* Стили для страницы policy.html */
+.policy-content {
+    text-align: left;
+}
+
+.policy-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 480px) {
+    .policy-content h2 {
+        font-size: 24px;
+    }
+}
+
+.policy-content p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* Стили для слайдера */
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.slider-btn.prev {
+    left: 20px;
+}
+
+.slider-btn.next {
+    right: 20px;
+}
+
+.slider-btn:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 480px) {
+    .slider-btn {
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+}
+
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #555;
+    transform: translateY(-2px);
+}
+
+.social-link {
+    position: relative;
+    padding-left: 24px;
+}
+
+.icon-vk::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url('images/vk-icon.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.icon-telegram::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url('images/telegram-icon.png') no-repeat center;
+    background-size: contain;
+}
+
+@media (max-width: 480px) {
+    .footer-link {
+        font-size: 16px;
+    }
+    .social-link {
+        padding-left: 28px;
+    }
+    .icon-vk::before,
+    .icon-telegram::before {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.language-switcher button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.language-switcher button:hover {
+    background-color: #f0f0f0;
+}
+.language-switcher button.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
