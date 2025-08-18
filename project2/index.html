@@ -30,8 +30,8 @@
 
 <main class="px-10">
     <section class="mt-10">
-        <div class="flex justify-between items-start">
-            <div class="text-left max-w-lg">
+        <div class="flex justify-between items-start intro-content">
+            <div class="text-left max-w-lg intro-text">
                 <h1 class="text-5xl font-bold leading-snug mb-6" data-lang-ru="Эксклюзивная<br>и нестандартная<br>мебель для дома" data-lang-en="Exclusive<br>and custom<br>furniture for home">
                     Эксклюзивная<br>и нестандартная<br>мебель для дома
                 </h1>
@@ -39,14 +39,14 @@
                     Мы можем произвести любую мебель для<br>вашего проекта и найти производственное<br>решение любой задумки.
                 </p>
             </div>
-            <a href="#order" class="text-black underline text-lg font-semibold mt-4 block" data-lang-ru="ЗАКАЗАТЬ ПРОЕКТ" data-lang-en="ORDER A PROJECT">ЗАКАЗАТЬ ПРОЕКТ</a>
+            <a href="#order" class="btn-order text-black underline text-lg font-semibold mt-4 block" data-lang-ru="ЗАКАЗАТЬ ПРОЕКТ" data-lang-en="ORDER A PROJECT">ЗАКАЗАТЬ ПРОЕКТ</a>
         </div>
-        <div class="flex mt-10 space-x-6 justify-center">
-            <div style="width: 329px; height: 493px;">
+        <div class="flex mt-10 space-x-6 justify-center gallery">
+            <div class="image-small" style="width: 329px; height: 493px;">
                 <img src="images/image2.png" alt="Меньшее фото" data-lang-ru="Меньшее фото" data-lang-en="Smaller photo" class="w-full h-full object-cover">
             </div>
             <div class="w-80"></div>
-            <div style="width: 678px; height: 809px;">
+            <div class="image-large" style="width: 678px; height: 809px;">
                 <img src="images/image1.png" alt="Большое фото" data-lang-ru="Большое фото" data-lang-en="Larger photo" class="w-full h-full object-cover">
             </div>
         </div>
@@ -125,38 +125,38 @@
         </div>
     </section>
 
-    <section id="projects" class="max-w-7xl mx-auto py-16">
+    <section id="projects" class="max-w-7xl mx-auto py-16 projects">
         <h2 class="text-4xl font-bold text-left mb-10" data-lang-ru="Проекты" data-lang-en="Projects">Проекты</h2>
-        <div class="grid grid-cols-3 gap-6">
-            <img src="images/project1.jpg" alt="Проект 1" data-lang-ru="Проект 1" data-lang-en="Project 1" class="w-[446px] h-[580px] object-cover">
-            <img src="images/project2.jpg" alt="Проект 2" data-lang-ru="Проект 2" data-lang-en="Project 2" class="w-[446px] h-[580px] object-cover">
-            <img src="images/project3.png" alt="Проект 3" data-lang-ru="Проект 3" data-lang-en="Project 3" class="w-[446px] h-[580px] object-cover">
-            <img src="images/project4.png" alt="Проект 4" data-lang-ru="Проект 4" data-lang-en="Project 4" class="w-[446px] h-[580px] object-cover">
-            <img src="images/project5.png" alt="Проект 5" data-lang-ru="Проект 5" data-lang-en="Project 5" class="w-[446px] h-[580px] object-cover">
-            <img src="images/project6.png" alt="Проект 6" data-lang-ru="Проект 6" data-lang-en="Project 6" class="w-[446px] h-[580px] object-cover">
+        <div class="grid grid-cols-3 gap-6 projects-grid">
+            <div class="project-item"><img src="images/project1.jpg" alt="Проект 1" data-lang-ru="Проект 1" data-lang-en="Project 1" class="w-[446px] h-[580px] object-cover"></div>
+            <div class="project-item"><img src="images/project2.jpg" alt="Проект 2" data-lang-ru="Проект 2" data-lang-en="Project 2" class="w-[446px] h-[580px] object-cover"></div>
+            <div class="project-item"><img src="images/project3.png" alt="Проект 3" data-lang-ru="Проект 3" data-lang-en="Project 3" class="w-[446px] h-[580px] object-cover"></div>
+            <div class="project-item"><img src="images/project4.png" alt="Проект 4" data-lang-ru="Проект 4" data-lang-en="Project 4" class="w-[446px] h-[580px] object-cover"></div>
+            <div class="project-item"><img src="images/project5.png" alt="Проект 5" data-lang-ru="Проект 5" data-lang-en="Project 5" class="w-[446px] h-[580px] object-cover"></div>
+            <div class="project-item"><img src="images/project6.png" alt="Проект 6" data-lang-ru="Проект 6" data-lang-en="Project 6" class="w-[446px] h-[580px] object-cover"></div>
         </div>
     </section>
 
-    <section id="reviews" class="max-w-7xl mx-auto py-16">
+    <section id="reviews" class="max-w-7xl mx-auto py-16 reviews">
         <h2 class="text-4xl font-bold text-left mb-10" data-lang-ru="Отзывы" data-lang-en="Reviews">Отзывы</h2>
-        <div class="grid grid-cols-3 gap-6">
-            <div class="border border-gray-300 p-6 text-center">
-                <img src="images/icon1.png" alt="Иконка 1" data-lang-ru="Иконка 1" data-lang-en="Icon 1" class="w-12 h-12 mx-auto mb-4">
-                <p class="text-lg" data-lang-ru="Игорь Иванов" data-lang-en="Igor Ivanov">Игорь Иванов</p>
+        <div class="grid grid-cols-3 gap-6 reviews-container">
+            <div class="border border-gray-300 p-6 text-center review-card">
+                <img src="images/icon1.png" alt="Иконка 1" data-lang-ru="Иконка 1" data-lang-en="Icon 1" class="w-12 h-12 mx-auto mb-4 review-icon">
+                <p class="text-lg review-name" data-lang-ru="Игорь Иванов" data-lang-en="Igor Ivanov">Игорь Иванов</p>
                 <p class="text-sm text-gray-600 mt-2" data-lang-ru="Обратился к Aveji по рекомендации. Команда сразу поняла, какой дизайн я хочу..." data-lang-en="Contacted Aveji on recommendation. The team immediately understood the design I wanted...">
                     Обратился к Aveji по рекомендации. Команда сразу поняла, какой дизайн я хочу...
                 </p>
             </div>
-            <div class="border border-gray-300 p-6 text-center">
-                <img src="images/icon1.png" alt="Иконка 2" data-lang-ru="Иконка 2" data-lang-en="Icon 2" class="w-12 h-12 mx-auto mb-4">
-                <p class="text-lg" data-lang-ru="Ольга Иванова" data-lang-en="Olga Ivanova">Ольга Иванова</p>
+            <div class="border border-gray-300 p-6 text-center review-card">
+                <img src="images/icon1.png" alt="Иконка 2" data-lang-ru="Иконка 2" data-lang-en="Icon 2" class="w-12 h-12 mx-auto mb-4 review-icon">
+                <p class="text-lg review-name" data-lang-ru="Ольга Иванова" data-lang-en="Olga Ivanova">Ольга Иванова</p>
                 <p class="text-sm text-gray-600 mt-2" data-lang-ru="После пары заказов у компании Aveji убедилась, что за мебель теперь только к ним..." data-lang-en="After a couple of orders with Aveji, I’m convinced I’ll only go to them for furniture...">
                     После пары заказов у компании Aveji убедилась, что за мебель теперь только к ним...
                 </p>
             </div>
-            <div class="border border-gray-300 p-6 text-center">
-                <img src="images/icon1.png" alt="Иконка 3" data-lang-ru="Иконка 3" data-lang-en="Icon 3" class="w-12 h-12 mx-auto mb-4">
-                <p class="text-lg" data-lang-ru="Аркадий Макаров" data-lang-en="Arkady Makarov">Аркадий Макаров</p>
+            <div class="border border-gray-300 p-6 text-center review-card">
+                <img src="images/icon1.png" alt="Иконка 3" data-lang-ru="Иконка 3" data-lang-en="Icon 3" class="w-12 h-12 mx-auto mb-4 review-icon">
+                <p class="text-lg review-name" data-lang-ru="Аркадий Макаров" data-lang-en="Arkady Makarov">Аркадий Макаров</p>
                 <p class="text-sm text-gray-600 mt-2" data-lang-ru="Aveji – настоящие профессионалы своего дела. Быстро поняли мою задумку..." data-lang-en="Aveji are true professionals. They quickly understood my idea...">
                     Aveji – настоящие профессионалы своего дела. Быстро поняли мою задумку...
                 </p>
@@ -164,9 +164,9 @@
         </div>
     </section>
 
-    <section id="order" class="max-w-7xl mx-auto py-16 flex items-center">
-        <img src="images/room.png" alt="Комната" data-lang-ru="Комната" data-lang-en="Room" class="w-1/2">
-        <form id="order-form" class="w-1/2 ml-8">
+    <section id="order" class="max-w-7xl mx-auto py-16 flex items-center room-project">
+        <img src="images/room.png" alt="Комната" data-lang-ru="Комната" data-lang-en="Room" class="w-1/2 room-image">
+        <form id="order-form" class="w-1/2 ml-8 form-container">
             <h2 class="text-4xl font-bold mb-4" data-lang-ru="Хотите заказать проект?" data-lang-en="Want to order a project?">Хотите заказать проект?</h2>
             <p class="text-sm text-gray-600 mb-6" data-lang-ru="Оставьте заявку, и мы вам перезвоним" data-lang-en="Leave a request, and we will contact you">Оставьте заявку, и мы вам перезвоним</p>
             <div class="space-y-4">
@@ -178,10 +178,10 @@
         </form>
     </section>
 
-    <footer class="py-6">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <p class="text-sm text-gray-600" data-lang-ru="© 2023 AVEJI. Все права защищены." data-lang-en="© 2023 AVEJI. All rights reserved.">© 2023 AVEJI. Все права защищены.</p>
-            <div class="flex space-x-6">
+    <footer class="py-6 footer">
+        <div class="max-w-7xl mx-auto flex justify-between items-center footer-content">
+            <p class="text-sm text-gray-600 copyright" data-lang-ru="© 2023 AVEJI. Все права защищены." data-lang-en="© 2023 AVEJI. All rights reserved.">© 2023 AVEJI. Все права защищены.</p>
+            <div class="flex space-x-6 footer-links">
                 <a href="policy.html" class="text-sm text-gray-600 footer-link" data-lang-ru="Политика конфиденциальности / Оплата и доставка" data-lang-en="Privacy Policy / Payment and Delivery">Политика конфиденциальности / Оплата и доставка</a>
                 <a href="#" class="text-sm text-gray-600 footer-link social-link vk-link">
                     <span class="icon-vk"></span> <span data-lang-ru="ВКонтакте" data-lang-en="VK">ВКонтакте</span>
