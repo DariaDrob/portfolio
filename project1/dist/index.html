@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Квітковий Гай</title>
-    <link rel="stylesheet" href="project1/dist/index.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
 <nav class="navbar">
@@ -30,45 +30,53 @@
 </div>
 
 <div id="products" class="page" style="display:none;">
-    <h1>Товари</h1>
-    <div class="filters">
-        <select id="categoryFilter" onchange="filterProducts()">
-            <option value="">Усі категорії</option>
-        </select>
-        <select id="priceRangeFilter" onchange="filterProducts()">
-            <option value="">Усі ціни</option>
-            <option value="low">До 2000 грн</option>
-            <option value="mid">2000-2500 грн</option>
-            <option value="high">Понад 2500 грн</option>
-        </select>
-        <input type="text" id="searchFilter" placeholder="Пошук за назвою" onkeyup="filterProducts()">
+    <div class="container">
+        <h1>Товари</h1>
+        <div class="filters">
+            <select id="categoryFilter" onchange="filterProducts()">
+                <option value="">Усі категорії</option>
+            </select>
+            <select id="priceRangeFilter" onchange="filterProducts()">
+                <option value="">Усі ціни</option>
+                <option value="low">До 2000 грн</option>
+                <option value="mid">2000-2500 грн</option>
+                <option value="high">Понад 2500 грн</option>
+            </select>
+            <input type="text" id="searchFilter" placeholder="Пошук за назвою" onkeyup="filterProducts()">
+        </div>
+        <div id="product-list" class="product-grid"></div>
     </div>
-    <div id="product-list" class="product-grid"></div>
 </div>
 
 <div id="cart" class="page" style="display:none;">
-    <h1>Кошик</h1>
-    <div id="cart-items"></div>
-    <div id="cart-total" style="display:none; font-size:20px; font-weight:500; color:#333; text-align:center;"></div>
+    <div class="container">
+        <h1>Кошик</h1>
+        <div id="cart-items"></div>
+        <div id="cart-total" style="display:none;"></div>
+    </div>
 </div>
 
 <div id="about" class="page" style="display:none;">
-    <h1>Про нас</h1>
-    <p>Ми - "Квітковий Гай", ваш надійний партнер у світі квітів. Наш магазин працює на ринку вже понад 10 років, і за цей час ми встигли стати улюбленцями багатьох клієнтів. Ми постійно приносимо радість, створюючи свіжі та красиві букети для будь-якого випадку — від весілля до буденних сюрпризів. Наша команда складається з досвідчених флористів, які з любов’ю підходять до кожної композиції.</p>
-    <p>У нас ви знайдете широкий асортимент квітів: троянди, тюльпани, лілії, соняшники та багато іншого. Ми дбаємо про якість, тому співпрацюємо лише з перевіреними постачальниками. Кожен букет — це маленьке диво, яке ми створюємо для вас з душею. Також ми пропонуємо доставку по всьому місту, щоб ваші квіти дісталися до адресата в найкоротші терміни.</p>
-    <div class="about-images">
-        <img src="/images/main1.png" alt="Main 1">
-        <img src="/images/main2.png" alt="Main 2">
-        <img src="/images/main3.png" alt="Main 3">
-        <img src="/images/main4.png" alt="Main 4">
+    <div class="container">
+        <h1>Про нас</h1>
+        <p>Ми - "Квітковий Гай", ваш надійний партнер у світі квітів. Наш магазин працює на ринку вже понад 10 років, і за цей час ми встигли стати улюбленцями багатьох клієнтів. Ми постійно приносимо радість, створюючи свіжі та красиві букети для будь-якого випадку — від весілля до буденних сюрпризів. Наша команда складається з досвідчених флористів, які з любов’ю підходять до кожної композиції.</p>
+        <p>У нас ви знайдете широкий асортимент квітів: троянди, тюльпани, лілії, соняшники та багато іншого. Ми дбаємо про якість, тому співпрацюємо лише з перевіреними постачальниками. Кожен букет — це маленьке диво, яке ми створюємо для вас з душею. Також ми пропонуємо доставку по всьому місту, щоб ваші квіти дісталися до адресата в найкоротші терміни.</p>
+        <div class="about-images">
+            <img src="./images/main1.png" alt="Main 1">
+            <img src="./images/main2.png" alt="Main 2">
+            <img src="./images/main3.png" alt="Main 3">
+            <img src="./images/main4.png" alt="Main 4">
+        </div>
     </div>
 </div>
 
 <div id="product-detail" class="page" style="display:none;">
-    <button onclick="showPage('products')">Повернутися до товарів</button>
-    <div id="detail-content"></div>
+    <div class="container">
+        <button onclick="showPage('products')">Повернутися до товарів</button>
+        <div id="detail-content"></div>
+    </div>
 </div>
 
-<script src="project1/dist/script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>

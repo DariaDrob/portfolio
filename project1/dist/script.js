@@ -1,19 +1,19 @@
 const flowers = [
-    { id: 1, name: "Троянди червоні", category: "Троянди", price: 2500, image: "/images/red-roses.jpg", description: "Класичні червоні троянди, 50 см", rating: 4.8 },
-    { id: 2, name: "Тюльпани білі", category: "Тюльпани", price: 1500, image: "/images/white-tulips.jpg", description: "Свіжі білі тюльпани, 40 см", rating: 4.5 },
-    { id: 3, name: "Соняшники", category: "Соняшники", price: 2000, image: "/images/sunflowers.jpg", description: "Яскраві соняшники, 60 см", rating: 4.7 },
-    { id: 4, name: "Лілії рожеві", category: "Лілії", price: 3000, image: "/images/pink-lilies.jpg", description: "Елегантні рожеві лілії", rating: 4.9 },
-    { id: 5, name: "Півонії білі", category: "Півонії", price: 2800, image: "/images/white-peonies.jpg", description: "Ніжні білі півонії", rating: 4.6 },
-    { id: 6, name: "Хризантеми жовті", category: "Хризантеми", price: 1700, image: "/images/yellow-chrysanthemums.jpg", description: "Яскраві хризантеми", rating: 4.4 },
-    { id: 7, name: "Еустоми фіолетові", category: "Еустоми", price: 2200, image: "/images/purple-eustomas.jpg", description: "Фіолетові еустоми, 45 см", rating: 4.8 },
-    { id: 8, name: "Ромашки польові", category: "Ромашки", price: 1300, image: "/images/field-daisies.jpg", description: "Прості польові ромашки", rating: 4.3 },
-    { id: 9, name: "Гортензії сині", category: "Гортензії", price: 2700, image: "/images/blue-hydrangeas.jpg", description: "Сині гортензії, 50 см", rating: 4.7 },
-    { id: 10, name: "Троянди білі", category: "Троянди", price: 2400, image: "/images/white-roses.jpg", description: "Білі троянди, 50 см", rating: 4.6 },
-    { id: 11, name: "Тюльпани рожеві", category: "Тюльпани", price: 1600, image: "/images/pink-tulips.jpg", description: "Рожеві тюльпани, 40 см", rating: 4.5 },
-    { id: 12, name: "Лілії білі", category: "Лілії", price: 2900, image: "/images/white-lilies.jpg", description: "Білі лілії, 55 см", rating: 4.8 },
-    { id: 13, name: "Півонії рожеві", category: "Півонії", price: 2600, image: "/images/pink-peonies.jpg", description: "Рожеві півонії", rating: 4.7 },
-    { id: 14, name: "Еустоми білі", category: "Еустоми", price: 2100, image: "/images/white-eustomas.jpg", description: "Білі еустоми, 45 см", rating: 4.6 },
-    { id: 15, name: "Гортензії рожеві", category: "Гортензії", price: 2800, image: "/images/pink-hydrangeas.jpg", description: "Рожеві гортензії, 50 см", rating: 4.9 },
+    { id: 1, name: "Троянди червоні", category: "Троянди", price: 2500, image: "./images/red-roses.jpg", description: "Класичні червоні троянди, 50 см", rating: 4.8 },
+    { id: 2, name: "Тюльпани білі", category: "Тюльпани", price: 1500, image: "./images/white-tulips.jpg", description: "Свіжі білі тюльпани, 40 см", rating: 4.5 },
+    { id: 3, name: "Соняшники", category: "Соняшники", price: 2000, image: "./images/sunflowers.jpg", description: "Яскраві соняшники, 60 см", rating: 4.7 },
+    { id: 4, name: "Лілії рожеві", category: "Лілії", price: 3000, image: "./images/pink-lilies.jpg", description: "Елегантні рожеві лілії", rating: 4.9 },
+    { id: 5, name: "Півонії білі", category: "Півонії", price: 2800, image: "./images/white-peonies.jpg", description: "Ніжні білі півонії", rating: 4.6 },
+    { id: 6, name: "Хризантеми жовті", category: "Хризантеми", price: 1700, image: "./images/yellow-chrysanthemums.jpg", description: "Яскраві хризантеми", rating: 4.4 },
+    { id: 7, name: "Еустоми фіолетові", category: "Еустоми", price: 2200, image: "./images/purple-eustomas.jpg", description: "Фіолетові еустоми, 45 см", rating: 4.8 },
+    { id: 8, name: "Ромашки польові", category: "Ромашки", price: 1300, image: "./images/field-daisies.jpg", description: "Прості польові ромашки", rating: 4.3 },
+    { id: 9, name: "Гортензії сині", category: "Гортензії", price: 2700, image: "./images/blue-hydrangeas.jpg", description: "Сині гортензії, 50 см", rating: 4.7 },
+    { id: 10, name: "Троянди білі", category: "Троянди", price: 2400, image: "./images/white-roses.jpg", description: "Білі троянди, 50 см", rating: 4.6 },
+    { id: 11, name: "Тюльпани рожеві", category: "Тюльпани", price: 1600, image: "./images/pink-tulips.jpg", description: "Рожеві тюльпани, 40 см", rating: 4.5 },
+    { id: 12, name: "Лілії білі", category: "Лілії", price: 2900, image: "./images/white-lilies.jpg", description: "Білі лілії, 55 см", rating: 4.8 },
+    { id: 13, name: "Півонії рожеві", category: "Півонії", price: 2600, image: "./images/pink-peonies.jpg", description: "Рожеві півонії", rating: 4.7 },
+    { id: 14, name: "Еустоми білі", category: "Еустоми", price: 2100, image: "./images/white-eustomas.jpg", description: "Білі еустоми, 45 см", rating: 4.6 },
+    { id: 15, name: "Гортензії рожеві", category: "Гортензії", price: 2800, image: "./images/pink-hydrangeas.jpg", description: "Рожеві гортензії, 50 см", rating: 4.9 },
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -30,7 +30,9 @@ function showPage(page) {
 function renderStars(rating) {
     const stars = Math.round(rating);
     let html = '';
-    for (let i = 0; i < stars; i++) html += '<svg style="width:16px;height:16px" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.167 1.191-5.917 5.765 1.396 8.134-7.314-3.85-7.314 3.85 1.396-8.134-5.917-5.765 8.167-1.191z"/></svg>';
+    for (let i = 0; i < stars; i++) {
+        html += '<svg style="width:16px;height:16px" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.167 1.191-5.917 5.765 1.396 8.134-7.314-3.85-7.314 3.85 1.396-8.134-5.917-5.765 8.167-1.191z"/></svg>';
+    }
     return `<div class="stars">${html}<span style="margin-left:4px;color:#333">(${rating})</span></div>`;
 }
 
@@ -45,12 +47,12 @@ function renderProducts() {
         const card = document.createElement('div');
         card.className = 'product-card';
         card.innerHTML = `
-      <img src="${flower.image}" alt="${flower.name}">
-      <h2>${flower.name}</h2>
-      <p>Від ${flower.price} грн</p>
-      ${renderStars(flower.rating)}
-      <button onclick="showDetail(${flower.id})">Деталі</button>
-    `;
+            <img src="${flower.image}" alt="${flower.name}">
+            <h2>${flower.name}</h2>
+            <p>Від ${flower.price} грн</p>
+            ${renderStars(flower.rating)}
+            <button onclick="showDetail(${flower.id})">Деталі</button>
+        `;
         productList.appendChild(card);
     });
     filterProducts();
@@ -78,48 +80,52 @@ function filterProducts() {
         const card = document.createElement('div');
         card.className = 'product-card';
         card.innerHTML = `
-      <img src="${flower.image}" alt="${flower.name}">
-      <h2>${flower.name}</h2>
-      <p>Від ${flower.price} грн</p>
-      ${renderStars(flower.rating)}
-      <button onclick="showDetail(${flower.id})">Деталі</button>
-    `;
+            <img src="${flower.image}" alt="${flower.name}">
+            <h2>${flower.name}</h2>
+            <p>Від ${flower.price} грн</p>
+            ${renderStars(flower.rating)}
+            <button onclick="showDetail(${flower.id})">Деталі</button>
+        `;
         productList.appendChild(card);
     });
 }
 
 function showDetail(id) {
     const flower = flowers.find(f => f.id === id);
+    if (!flower) return;
     const details = getFlowerDetails(id);
     let html = `
-    <img src="${flower.image}" alt="${flower.name}">
-    <h1>${flower.name}</h1>
-    <p>${details.description}</p>
-    <p>Для кого: ${details.forWhom}</p>
-    <p>Підходить для: ${details.situations}</p>
-    <p>Ціна за букет: ${flower.price} грн</p>
-    <div class="quantity">
-      <label>Кількість букетів:</label>
-      <input type="number" id="detailQuantity" min="1" value="1" onchange="updateTotalPrice(${flower.price})">
-    </div>
-    <p>Загальна сума: <span id="detailTotal">${flower.price}</span> грн</p>
-    <button onclick="addToCart(${flower.id}, document.getElementById('detailQuantity').value)">Додати до кошика</button>
-  `;
+        <img src="${flower.image}" alt="${flower.name}">
+        <h1>${flower.name}</h1>
+        <p>${details.description}</p>
+        <p>Для кого: ${details.forWhom}</p>
+        <p>Підходить для: ${details.situations}</p>
+        <p>Ціна за букет: ${flower.price} грн</p>
+        <div class="quantity">
+            <label>Кількість букетів:</label>
+            <input type="number" id="detailQuantity" min="1" value="1" onchange="updateTotalPrice(${flower.price})">
+        </div>
+        <p>Загальна сума: <span id="detailTotal">${flower.price}</span> грн</p>
+        <button onclick="addToCart(${flower.id}, document.getElementById('detailQuantity').value)">Додати до кошика</button>
+    `;
     document.getElementById('detail-content').innerHTML = html;
     showPage('product-detail');
 }
 
 function updateTotalPrice(price) {
-    const quantity = document.getElementById('detailQuantity').value;
+    const quantity = parseInt(document.getElementById('detailQuantity').value) || 1;
     document.getElementById('detailTotal').textContent = price * quantity;
 }
 
 function addToCart(id, quantity) {
     const flower = flowers.find(f => f.id === id);
-    const item = { ...flower, quantity: parseInt(quantity), totalPrice: flower.price * parseInt(quantity) };
+    if (!flower) return;
+    const qty = parseInt(quantity) || 1;
+    if (qty < 1) return;
+    const item = { ...flower, quantity: qty, totalPrice: flower.price * qty };
     const existing = cart.find(i => i.id === id);
     if (existing) {
-        existing.quantity += parseInt(quantity);
+        existing.quantity += qty;
         existing.totalPrice = existing.price * existing.quantity;
     } else {
         cart.push(item);
@@ -138,18 +144,21 @@ function renderCart() {
     } else {
         cart.forEach(item => {
             const div = document.createElement('div');
-            div.style.cssText = 'display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding:16px 0';
+            div.className = 'cart-item';
             div.innerHTML = `
-        <div><h2>${item.name} x ${item.quantity}</h2><p>Ціна за 1 букет: ${item.price} грн<br>Ціна за ${item.quantity} букетів: ${item.totalPrice} грн</p></div>
-        <div style="display:flex;gap:16px">
-          <input type="number" min="1" value="${item.quantity}" onchange="updateQuantity(${item.id}, this.value, ${item.price})" style="padding:8px;border:1px solid #ccc;border-radius:4px;width:80px">
-          <button onclick="removeFromCart(${item.id})" style="color:#ef4444;text-decoration:none;border:none;background:none;cursor:pointer">Видалити</button>
-        </div>
-      `;
+                <div>
+                    <h2>${item.name} x ${item.quantity}</h2>
+                    <p>Ціна за 1 букет: ${item.price} грн<br>Ціна за ${item.quantity} букетів: ${item.totalPrice} грн</p>
+                </div>
+                <div class="cart-actions">
+                    <input type="number" min="1" value="${item.quantity}" onchange="updateQuantity(${item.id}, this.value, ${item.price})">
+                    <button onclick="removeFromCart(${item.id})">Видалити</button>
+                </div>
+            `;
             cartItems.appendChild(div);
         });
         const total = cart.reduce((sum, item) => sum + item.totalPrice, 0);
-        document.getElementById('cart-total').textContent = `Загальна сума замовлення: ${total} грн`;
+        document.getElementById('cart-total').innerHTML = `Загальна сума замовлення: ${total} грн`;
         document.getElementById('cart-total').style.display = 'block';
     }
 }
@@ -162,13 +171,15 @@ function removeFromCart(id) {
 }
 
 function updateQuantity(id, quantity, price) {
-    cart = cart.map(item => item.id === id ? { ...item, quantity: parseInt(quantity), totalPrice: price * parseInt(quantity) } : item);
+    const qty = parseInt(quantity) || 1;
+    if (qty < 1) return;
+    cart = cart.map(item => item.id === id ? { ...item, quantity: qty, totalPrice: price * qty } : item);
     localStorage.setItem('cart', JSON.stringify(cart));
     renderCart();
 }
 
 function updateCartCount() {
-    const count = cart.length;
+    const count = cart.reduce((sum, item) => sum + item.quantity, 0);
     document.getElementById('cartCount').textContent = count;
 }
 
@@ -176,11 +187,11 @@ function showPopup() {
     const popup = document.createElement('div');
     popup.className = 'popup';
     popup.innerHTML = `
-    <h2>Товар додано до кошика!</h2>
-    <button onclick="closePopup()">Продовжити покупки</button>
-    <button onclick="closePopup(); showPage('cart')">Перейти до кошика</button>
-  `;
-    document.getElementById('detail-content').appendChild(popup);
+        <h2>Товар додано до кошика!</h2>
+        <button onclick="closePopup()">Продовжити покупки</button>
+        <button onclick="closePopup(); showPage('cart')">Перейти до кошика</button>
+    `;
+    document.body.appendChild(popup);
 }
 
 function closePopup() {
