@@ -220,10 +220,6 @@ function getFlowerDetails(id) {
     }
 }
 
-function changeLanguage(lang) {
-    alert(`Змінено мову на ${lang}`);
-}
-
 window.onload = () => {
     showPage('home');
     updateCartCount();

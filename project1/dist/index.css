@@ -17,22 +17,16 @@ body {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
+    padding: 10px 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 2;
 }
 
-.navbar .logo {
-    font-size: 24px;
-    font-weight: normal;
-    color: #333;
-}
-
 .navbar .nav-links {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .navbar a {
@@ -43,13 +37,6 @@ body {
 
 .navbar a:hover {
     color: #000;
-}
-
-.navbar select {
-    border: none;
-    background: transparent;
-    color: #333;
-    font-size: 16px;
 }
 
 .home-background {

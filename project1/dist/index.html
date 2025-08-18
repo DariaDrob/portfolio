@@ -9,17 +9,12 @@
 </head>
 <body>
 <nav class="navbar">
-    <div class="logo">КВІТКОВИЙ МАГАЗИН</div>
     <div class="nav-links">
         <a href="#" onclick="showPage('home')">Головна</a>
+        <a href="#" onclick="showPage('about')">Про нас</a>
         <a href="#" onclick="showPage('products')">Товари</a>
         <a href="#" onclick="showPage('cart')">Кошик (<span id="cartCount">0</span>)</a>
-        <a href="#" onclick="showPage('about')">Про нас</a>
     </div>
-    <select onchange="changeLanguage(this.value)">
-        <option value="uk">UK</option>
-        <option value="ru">RU</option>
-    </select>
 </nav>
 
 <div id="home" class="page">
